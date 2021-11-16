@@ -16,7 +16,7 @@ $ earthly +docker
 ## Run
 
 ```bash
- $ docker run --rm -p 127.0.0.1:8080:80 neptaco/eathly-examples:dotnet
+ $ docker run -it --rm -p 8080:80 eathly-dotnet
 ```
 
 Open http://localhost:8080/WeatherForecast
