@@ -21,3 +21,9 @@ $ earthly +docker
 
 Open http://localhost:8080/WeatherForecast
 
+## Docker
+
+```bash
+$ docker build -t docker-dotnet .
+$ docker run -it --rm -p 8080:80 docker-dotnet
+```
